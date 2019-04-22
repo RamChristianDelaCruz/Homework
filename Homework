@@ -1,0 +1,103 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+        int monthno,year,day;
+    
+    cout<<"Enter month\n";cin>> monthno;
+    cout<<"Enter day\n";cin>>day;
+    cout<<"Enter year.\n";cin>>year;
+    
+    if (monthno == 1 && day <= 0 )
+    cout<< "Error";
+    else if (monthno == 1 && day <=31)
+    cout<< "January"<<" "<<day<<", "<<year;
+    else if (monthno == 1 && day >=31)
+    cout <<"Error";
+    
+    if (monthno == 2 && day <= 0 )
+    cout<< "Error";
+    else if (monthno == 2 && day <=28)
+    cout<< "February"<<" "<<day<<", "<<year;
+    else if (monthno == 2 && day >=28)
+    cout <<"Error";
+    
+    if (monthno == 3 && day <= 0 )
+    cout<< "Error";
+    else if (monthno == 3 && day <=31)
+    cout<< "March"<<" "<<day<<", "<<year;
+    else if (monthno == 3 && day >=31)
+    cout <<"Error";
+    
+    if (monthno == 4 && day <= 0 )
+    cout<< "Error";
+    else if (monthno == 4 && day <=30)
+    cout<< "April"<<" "<<day<<", "<<year;
+    else if (monthno == 4 && day >=30)
+    cout <<"Error";
+    
+    if (monthno == 5 && day <= 0 )
+    cout<< "Error";
+    else if (monthno == 5 && day <=31)
+    cout<< "May"<<" "<<day<<", "<<year;
+    else if (monthno == 5 && day >=31)
+    cout <<"Error";
+    
+    if (monthno == 6 && day <= 0 )
+    cout<< "Error";
+    else if (monthno == 6 && day <=30)
+    cout<< "June"<<" "<<day<<", "<<year;
+    else if (monthno == 6 && day >=30)
+    cout <<"Error";
+    
+    if (monthno == 7 && day <= 0 )
+    cout<< "Error";
+    else if (monthno == 7 && day <=31)
+    cout<< "July"<<" "<<day<<", "<<year;
+    else if (monthno == 7 && day >=31)
+    cout <<"Error";
+    
+    if (monthno == 8 && day <= 0 )
+    cout<< "Error";
+    else if (monthno == 8 && day <=31)
+    cout<< "August"<<" "<<day<<", "<<year;
+    else if (monthno == 8 && day >=31)
+    cout <<"Error";
+    
+    if (monthno == 9 && day <= 0 )
+    cout<< "Error";
+    else if (monthno == 9 && day <=30)
+    cout<< "September"<<" "<<day<<", "<<year;
+    else if (monthno == 9 && day >=30)
+    cout <<"Error";
+    
+    if (monthno == 10 && day <= 0 )
+    cout<< "Error";
+    else if (monthno == 10 && day <=31)
+    cout<< "October"<<" "<<day<<", "<<year;
+    else if (monthno == 10 && day >=31)
+    cout <<"Error";
+    
+    if (monthno == 11 && day <= 0 )
+    cout<< "Error";
+    else if (monthno == 11 && day <=30)
+    cout<< "November"<<" "<<day<<", "<<year;
+    else if (monthno == 11 && day >=30)
+    cout <<"Error";
+    
+    if (monthno == 12 && day <= 0 )
+    cout<< "Error";
+    else if (monthno == 12 && day <=31)
+    cout<< "December"<<" "<<day<<", "<<year;
+    else if (monthno == 12 && day >=31)
+    cout <<"Error";
+    
+    if(monthno > 12)
+    cout<< "Error";
+    if(monthno <=0 )
+    cout<< "Error";
+
+    return 0;
+}
